@@ -6,10 +6,9 @@
 }
 
 body {
-  background: url(img/bg.png);
+  background-image: url(/img/background.png);
   width: 1600px;
   font-family: 'Roboto Slab', serif;
-  overflow: hidden;
 }
 
 .block {
@@ -86,3 +85,4 @@ body {
   top: 42px;
   left: 823px;
 }
+/*# sourceMappingURL=main.css.map */

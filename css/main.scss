@@ -5,10 +5,10 @@
 }
 
 body {
-    background: url(img/bg.png);  
+    background-image: url(/img/background.png);
     width: 1600px;
     font-family: 'Roboto Slab', serif;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .block {
