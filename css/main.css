@@ -1,15 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 body {
   background-image: url(/img/background.png);
   width: 1600px;
   font-family: 'Roboto Slab', serif;
-  /* overflow: hidden; */
 }
 
 .block {
@@ -58,8 +56,7 @@ body {
 .button {
   width: 360px;
   height: 80px;
-  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
-          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
   background-color: #1eb8b0;
   background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%);
   color: #ffffff;
@@ -72,10 +69,8 @@ body {
 
 .button-o {
   margin-left: 28px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
-          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  box-sizing: border-box;
+  box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
   background: transparent;
   border: 2px solid #01c4e0;
   color: #01b3e0;
@@ -86,4 +81,3 @@ body {
   top: 42px;
   left: 823px;
 }
-/*# sourceMappingURL=main.css.map */
